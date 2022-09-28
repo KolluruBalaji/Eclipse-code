@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="6" total="9" passed="2" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-25T17:36:53 IST" name="Suite" finished-at="2022-08-25T17:37:36 IST" duration-ms="42972">
+    <groups>
+      <group name="Regression">
+        <method signature="AnnotionswithExtentReports.TestFacebook()[pri:0, instance:ExtentReports2.AnnotionswithExtentReports@6e6f2380]" name="TestFacebook" class="ExtentReports2.AnnotionswithExtentReports"/>
+      </group> <!-- Regression -->
+      <group name="smoke">
+        <method signature="AnnotionswithExtentReports.TestGoogle()[pri:0, instance:ExtentReports2.AnnotionswithExtentReports@576d5deb]" name="TestGoogle" class="ExtentReports2.AnnotionswithExtentReports"/>
+        <method signature="AnnotionswithExtentReports.TestFacebook()[pri:0, instance:ExtentReports2.AnnotionswithExtentReports@6e6f2380]" name="TestFacebook" class="ExtentReports2.AnnotionswithExtentReports"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="AnnotionswithExtentReports.TestOrangeHrm()[pri:0, instance:ExtentReports2.AnnotionswithExtentReports@78e4deb0]" name="TestOrangeHrm" class="ExtentReports2.AnnotionswithExtentReports"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2022-08-25T17:36:53 IST" name="Test Google" finished-at="2022-08-25T17:37:06 IST" duration-ms="12464">
+      <class name="ExtentReports2.AnnotionswithExtentReports">
+        <test-method is-config="true" signature="Setup(org.testng.ITestContext,java.lang.String)[pri:0, instance:ExtentReports2.AnnotionswithExtentReports@576d5deb]" started-at="2022-08-25T17:36:53 IST" name="Setup" finished-at="2022-08-25T17:36:59 IST" duration-ms="5552" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4d25f816]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="TestGoogle()[pri:0, instance:ExtentReports2.AnnotionswithExtentReports@576d5deb]" started-at="2022-08-25T17:36:59 IST" name="TestGoogle" finished-at="2022-08-25T17:37:04 IST" duration-ms="4860" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestGoogle -->
+        <test-method is-config="true" signature="CheckStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:ExtentReports2.AnnotionswithExtentReports@576d5deb]" started-at="2022-08-25T17:37:04 IST" name="CheckStatus" finished-at="2022-08-25T17:37:04 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void ExtentReports2.AnnotionswithExtentReports.TestGoogle() throws java.lang.Exception]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=TestGoogle status=SUCCESS method=AnnotionswithExtentReports.TestGoogle()[pri:0, instance:ExtentReports2.AnnotionswithExtentReports@576d5deb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckStatus -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:ExtentReports2.AnnotionswithExtentReports@576d5deb]" started-at="2022-08-25T17:37:04 IST" name="TearDown" finished-at="2022-08-25T17:37:06 IST" duration-ms="1984" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- ExtentReports2.AnnotionswithExtentReports -->
+    </test> <!-- Test Google -->
+    <test started-at="2022-08-25T17:37:06 IST" name="Test Facebook" finished-at="2022-08-25T17:37:14 IST" duration-ms="8344">
+      <class name="ExtentReports2.AnnotionswithExtentReports">
+        <test-method is-config="true" signature="Setup(org.testng.ITestContext,java.lang.String)[pri:0, instance:ExtentReports2.AnnotionswithExtentReports@6e6f2380]" started-at="2022-08-25T17:37:06 IST" name="Setup" finished-at="2022-08-25T17:37:10 IST" duration-ms="3977" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6c6c2a73]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="TestFacebook()[pri:0, instance:ExtentReports2.AnnotionswithExtentReports@6e6f2380]" started-at="2022-08-25T17:37:10 IST" name="TestFacebook" finished-at="2022-08-25T17:37:12 IST" duration-ms="2021" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestFacebook -->
+        <test-method is-config="true" signature="CheckStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:ExtentReports2.AnnotionswithExtentReports@6e6f2380]" started-at="2022-08-25T17:37:12 IST" name="CheckStatus" finished-at="2022-08-25T17:37:12 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void ExtentReports2.AnnotionswithExtentReports.TestFacebook() throws java.lang.Exception]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=TestFacebook status=SUCCESS method=AnnotionswithExtentReports.TestFacebook()[pri:0, instance:ExtentReports2.AnnotionswithExtentReports@6e6f2380] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckStatus -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:ExtentReports2.AnnotionswithExtentReports@6e6f2380]" started-at="2022-08-25T17:37:12 IST" name="TearDown" finished-at="2022-08-25T17:37:14 IST" duration-ms="2343" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- ExtentReports2.AnnotionswithExtentReports -->
+    </test> <!-- Test Facebook -->
+    <test started-at="2022-08-25T17:37:14 IST" name="Test OrangeHrm" finished-at="2022-08-25T17:37:36 IST" duration-ms="22128">
+      <class name="ExtentReports2.AnnotionswithExtentReports">
+        <test-method is-config="true" signature="intializeExtentReports()[pri:0, instance:ExtentReports2.AnnotionswithExtentReports@78e4deb0]" started-at="2022-08-25T17:36:53 IST" name="intializeExtentReports" finished-at="2022-08-25T17:36:53 IST" duration-ms="269" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intializeExtentReports -->
+        <test-method is-config="true" signature="Setup(org.testng.ITestContext,java.lang.String)[pri:0, instance:ExtentReports2.AnnotionswithExtentReports@78e4deb0]" started-at="2022-08-25T17:37:14 IST" name="Setup" finished-at="2022-08-25T17:37:30 IST" duration-ms="15433" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6a4af081]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="TestOrangeHrm()[pri:0, instance:ExtentReports2.AnnotionswithExtentReports@78e4deb0]" started-at="2022-08-25T17:37:30 IST" name="TestOrangeHrm" finished-at="2022-08-25T17:37:35 IST" duration-ms="5394" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"#txtUsername"}
+  (Session info: MicrosoftEdge=104.0.1293.63)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'JKTBLRLAP471', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [8e2154266bafdc406801f58349845c4e, findElement {using=id, value=txtUsername}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 104.0.1293.63, ms:edgeOptions: {debuggerAddress: localhost:56421}, msedge: {msedgedriverVersion: 104.0.1293.63 (7dd22b4a7f12..., userDataDir: C:\Users\KOLLUR~1.BAL\AppDa...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56421/devtoo..., se:cdpVersion: 104.0.1293.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8e2154266bafdc406801f58349845c4e]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#txtUsername"}
+  (Session info: MicrosoftEdge=104.0.1293.63)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'JKTBLRLAP471', ip: '192.168.1.4', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [8e2154266bafdc406801f58349845c4e, findElement {using=id, value=txtUsername}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 104.0.1293.63, ms:edgeOptions: {debuggerAddress: localhost:56421}, msedge: {msedgedriverVersion: 104.0.1293.63 (7dd22b4a7f12..., userDataDir: C:\Users\KOLLUR~1.BAL\AppDa...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:56421/devtoo..., se:cdpVersion: 104.0.1293.63, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 8e2154266bafdc406801f58349845c4e
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:569)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:387)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:379)
+at ExtentReports2.AnnotionswithExtentReports.TestOrangeHrm(AnnotionswithExtentReports.java:42)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestOrangeHrm -->
+        <test-method is-config="true" signature="CheckStatus(java.lang.reflect.Method,org.testng.ITestResult)[pri:0, instance:ExtentReports2.AnnotionswithExtentReports@78e4deb0]" started-at="2022-08-25T17:37:35 IST" name="CheckStatus" finished-at="2022-08-25T17:37:35 IST" duration-ms="228" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void ExtentReports2.AnnotionswithExtentReports.TestOrangeHrm() throws java.lang.Exception]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[TestResult name=TestOrangeHrm status=FAILURE method=AnnotionswithExtentReports.TestOrangeHrm()[pri:0, instance:ExtentReports2.AnnotionswithExtentReports@78e4deb0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckStatus -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:ExtentReports2.AnnotionswithExtentReports@78e4deb0]" started-at="2022-08-25T17:37:35 IST" name="TearDown" finished-at="2022-08-25T17:37:36 IST" duration-ms="1061" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="GenerateReport()[pri:0, instance:ExtentReports2.AnnotionswithExtentReports@78e4deb0]" started-at="2022-08-25T17:37:36 IST" name="GenerateReport" finished-at="2022-08-25T17:37:40 IST" duration-ms="3776" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GenerateReport -->
+      </class> <!-- ExtentReports2.AnnotionswithExtentReports -->
+    </test> <!-- Test OrangeHrm -->
+  </suite> <!-- Suite -->
+</testng-results>
